@@ -101,6 +101,8 @@ def main():
         print(f"Erro ao exportar PNGs: {e}", file=sys.stderr)
         sys.exit(1)
 
-```
+
 if __name__ == "__main__":
     main()
+
+```
