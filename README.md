@@ -1,5 +1,5 @@
 Conteúdo do arquivo check_html.sh:
-
+```bash
 #!/usr/bin/env python3
 """
 Exporta slides de um HTML de carrossel para PNGs individuais (1080×1350).
@@ -101,6 +101,6 @@ def main():
         print(f"Erro ao exportar PNGs: {e}", file=sys.stderr)
         sys.exit(1)
 
-
+```
 if __name__ == "__main__":
     main()
